@@ -1,0 +1,82 @@
+﻿services:
+  mysql:
+    image: mysql:8.0
+    container_name: mswdo-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: mswdo_root_2026
+      MYSQL_DATABASE: mswdo_portal
+      MYSQL_USER: mswdo_user
+      MYSQL_PASSWORD: mswdo_password_2026
+    ports:
+      - "3307:3306"
+    volumes:
+      - mswdo_mysql_data:/var/lib/mysql
+    networks:
+      - mswdo-network
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: mswdo-phpmyadmin
+    restart: unless-stopped
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+    ports:
+      - "8085:80"
+    depends_on:
+      - mysql
+    networks:
+      - mswdo-network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: mswdo-backend
+    restart: unless-stopped
+    env_file:
+      - ./backend/.env
+    environment:
+      APP_ENV: local
+      APP_DEBUG: "true"
+      APP_URL: http://localhost:8000
+      DB_CONNECTION: mysql
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_DATABASE: mswdo_portal
+      DB_USERNAME: mswdo_user
+      DB_PASSWORD: mswdo_password_2026
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/storage:/var/www/storage
+    depends_on:
+      - mysql
+    networks:
+      - mswdo-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: mswdo-frontend
+    restart: unless-stopped
+    environment:
+      VITE_API_PROXY_TARGET: http://backend:8000
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    networks:
+      - mswdo-network
+
+volumes:
+  mswdo_mysql_data:
+
+networks:
+  mswdo-network:
+    driver: bridge

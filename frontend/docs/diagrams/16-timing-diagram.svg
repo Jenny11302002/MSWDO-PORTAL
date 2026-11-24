@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Timing Diagram — MSWDO Online Service Portal</title><desc id="desc">Qualitative lifecycle timing (not a fixed SLA): the record begins pending on submission and advances when staff update its status.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#587178"/></marker></defs>
+<rect width="1440" height="900" fill="#F4F8F7"/>
+<rect x="0" y="0" width="1440" height="9" fill="#087E78"/>
+<text x="64" y="43" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="750" text-anchor="start"><tspan x="64" dy="0">MSWDO ONLINE SERVICE PORTAL  /  BEHAVIORAL BLUEPRINT</tspan></text>
+<text x="64" y="91" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="750" text-anchor="start"><tspan x="64" dy="0">Timing Diagram</tspan></text>
+<text x="64" y="121" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="450" text-anchor="start"><tspan x="64" dy="0">Qualitative lifecycle timing (not a fixed SLA): the record begins pending on submission and advances when staff update its status.</tspan></text>
+<rect x="1288" y="45" width="88" height="34" rx="17" fill="#E6F4F1"/>
+<text x="1332" y="67" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle"><tspan x="1332" dy="0">16 / 17</tspan></text>
+
+<text x="100" y="226" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" text-anchor="start"><tspan x="100" dy="0">Applicant</tspan></text>
+<text x="100" y="368" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" text-anchor="start"><tspan x="100" dy="0">Portal / API</tspan></text>
+<text x="100" y="510" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" text-anchor="start"><tspan x="100" dy="0">Request status</tspan></text>
+<text x="100" y="652" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" text-anchor="start"><tspan x="100" dy="0">Documents</tspan></text>
+<path d="M250 246 H1340" fill="none" stroke="#D5E2DF" stroke-width="1.5"/>
+<path d="M250 388 H1340" fill="none" stroke="#D5E2DF" stroke-width="1.5"/>
+<path d="M250 530 H1340" fill="none" stroke="#D5E2DF" stroke-width="1.5"/>
+<path d="M250 672 H1340" fill="none" stroke="#D5E2DF" stroke-width="1.5"/>
+<line x1="360" y1="198" x2="360" y2="726" stroke="#D5E2DF" stroke-width="1.3" stroke-dasharray="7 7"/><text x="360" y="755" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="360" dy="0">Submit</tspan></text><line x1="590" y1="198" x2="590" y2="726" stroke="#D5E2DF" stroke-width="1.3" stroke-dasharray="7 7"/><text x="590" y="755" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="590" dy="0">Reference</tspan></text><line x1="810" y1="198" x2="810" y2="726" stroke="#D5E2DF" stroke-width="1.3" stroke-dasharray="7 7"/><text x="810" y="755" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="810" dy="0">Staff review</tspan></text><line x1="1030" y1="198" x2="1030" y2="726" stroke="#D5E2DF" stroke-width="1.3" stroke-dasharray="7 7"/><text x="1030" y="755" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="1030" dy="0">Decision</tspan></text><line x1="1240" y1="198" x2="1240" y2="726" stroke="#D5E2DF" stroke-width="1.3" stroke-dasharray="7 7"/><text x="1240" y="755" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="1240" dy="0">Closure</tspan></text>
+<path d="M360 224 H500 V266 H590" fill="none" stroke="#477B9E" stroke-width="4"/>
+<path d="M360 366 H500 V410 H590" fill="none" stroke="#087E78" stroke-width="4"/>
+<path d="M590 508 H810 V552 H1030 V508 H1240 V552" fill="none" stroke="#4F9B73" stroke-width="4"/>
+<path d="M590 650 H690 V694 H810 V650" fill="none" stroke="#C58B2B" stroke-width="4"/>
+<text x="620" y="492" fill="#C58B2B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="start"><tspan x="620" dy="0">pending</tspan></text>
+<text x="840" y="575" fill="#477B9E" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="start"><tspan x="840" dy="0">under_review</tspan></text>
+<text x="1060" y="492" fill="#4F9B73" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="start"><tspan x="1060" dy="0">approved / rejected</tspan></text>
+<text x="1262" y="575" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="start"><tspan x="1262" dy="0">completed</tspan></text>
+<text x="600" y="642" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="start"><tspan x="600" dy="0">no file</tspan></text>
+<text x="714" y="714" fill="#C58B2B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="start"><tspan x="714" dy="0">file(s) stored</tspan></text>
+<rect x="338" y="786" width="900" height="48" rx="10" fill="#FFF4DD" stroke="#E8CD91" stroke-width="1.5"/><text x="352" y="810" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="500" text-anchor="start"><tspan x="352" dy="0">Timestamps are event-driven; the application does not define a duration threshold or automated SLA timer.</tspan></text>
+
+<path d="M64 852 H1376" stroke="#D5E2DF" stroke-width="1.5"/>
+<text x="64" y="879" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="64" dy="0">MSWDO Online Service Portal  •  Vector diagram  •  Based on the current application and Docker configuration</tspan></text>
+</svg>

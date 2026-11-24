@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Class Diagram — MSWDO Online Service Portal</title><desc id="desc">Core Laravel entities and their implemented associations; the database is the source of truth for persisted records.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#587178"/></marker></defs>
+<rect width="1440" height="900" fill="#F4F8F7"/>
+<rect x="0" y="0" width="1440" height="9" fill="#087E78"/>
+<text x="64" y="43" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="750" text-anchor="start"><tspan x="64" dy="0">MSWDO ONLINE SERVICE PORTAL  /  STRUCTURAL BLUEPRINT</tspan></text>
+<text x="64" y="91" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="750" text-anchor="start"><tspan x="64" dy="0">Class Diagram</tspan></text>
+<text x="64" y="121" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="450" text-anchor="start"><tspan x="64" dy="0">Core Laravel entities and their implemented associations; the database is the source of truth for persisted records.</tspan></text>
+<rect x="1288" y="45" width="88" height="34" rx="17" fill="#E6F4F1"/>
+<text x="1332" y="67" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle"><tspan x="1332" dy="0">02 / 17</tspan></text>
+
+<rect x="84" y="204" width="256" height="180" rx="10" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+  <path d="M84 241 H340" stroke="#477B9E" stroke-width="4"/>
+  <text x="212" y="229" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle"><tspan x="212" dy="0">User</tspan></text>
+  <text x="96" y="262" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="96" dy="0">id, name, email, password</tspan><tspan x="96" dy="16.200000000000003">role, permissions, is_active</tspan><tspan x="96" dy="16.200000000000003">contact_number, address</tspan><tspan x="96" dy="16.200000000000003">+ serviceRequests()</tspan></text>
+<rect x="438" y="175" width="250" height="150" rx="10" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+  <path d="M438 212 H688" stroke="#087E78" stroke-width="4"/>
+  <text x="563" y="200" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle"><tspan x="563" dy="0">Service</tspan></text>
+  <text x="450" y="233" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="450" dy="0">id, service_name</tspan><tspan x="450" dy="16.200000000000003">description, requirements</tspan><tspan x="450" dy="16.200000000000003">is_active</tspan></text>
+<rect x="814" y="204" width="310" height="226" rx="10" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+  <path d="M814 241 H1124" stroke="#4F9B73" stroke-width="4"/>
+  <text x="969" y="229" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle"><tspan x="969" dy="0">ServiceRequest</tspan></text>
+  <text x="826" y="262" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="826" dy="0">id, reference_number</tspan><tspan x="826" dy="16.200000000000003">service_id, user_id?</tspan><tspan x="826" dy="16.200000000000003">applicant_name, contact_number</tspan><tspan x="826" dy="16.200000000000003">status, remarks, submitted_at</tspan><tspan x="826" dy="16.200000000000003">+ service(), user()</tspan><tspan x="826" dy="16.200000000000003">+ documents(), appointments()</tspan></text>
+<rect x="1190" y="190" width="210" height="170" rx="10" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+  <path d="M1190 227 H1400" stroke="#C58B2B" stroke-width="4"/>
+  <text x="1295" y="215" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle"><tspan x="1295" dy="0">RequestDocument</tspan></text>
+  <text x="1202" y="248" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="1202" dy="0">id, service_request_id</tspan><tspan x="1202" dy="16.200000000000003">document_name, original_name</tspan><tspan x="1202" dy="16.200000000000003">file_path, mime_type</tspan><tspan x="1202" dy="16.200000000000003">file_size</tspan></text>
+<rect x="850" y="562" width="266" height="176" rx="10" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+  <path d="M850 599 H1116" stroke="#477B9E" stroke-width="4"/>
+  <text x="983" y="587" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle"><tspan x="983" dy="0">Appointment</tspan></text>
+  <text x="862" y="620" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="862" dy="0">id, service_request_id</tspan><tspan x="862" dy="16.200000000000003">appointment_date, time</tspan><tspan x="862" dy="16.200000000000003">location, purpose</tspan><tspan x="862" dy="16.200000000000003">status, remarks</tspan></text>
+<rect x="412" y="554" width="280" height="172" rx="10" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+  <path d="M412 591 H692" stroke="#087E78" stroke-width="4"/>
+  <text x="552" y="579" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle"><tspan x="552" dy="0">Announcement</tspan></text>
+  <text x="424" y="612" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="424" dy="0">id, user_id?</tspan><tspan x="424" dy="16.200000000000003">title, content</tspan><tspan x="424" dy="16.200000000000003">is_published, published_at</tspan></text>
+<rect x="86" y="548" width="242" height="146" rx="10" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+  <path d="M86 585 H328" stroke="#17343B" stroke-width="4"/>
+  <text x="207" y="573" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle"><tspan x="207" dy="0">SystemSetting</tspan></text>
+  <text x="98" y="606" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="98" dy="0">id, settings (JSON)</tspan></text>
+<line x1="340" y1="278" x2="438" y2="250" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="387" y="246" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="387" dy="0">1  serves  *</tspan></text>
+<line x1="688" y1="250" x2="814" y2="286" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="750" y="250" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="750" dy="0">1          *</tspan></text>
+<path d="M340 306 H394 V640 H412" fill="none" stroke="#587178" stroke-width="1.7" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+<text x="394" y="624" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="394" dy="0">author</tspan></text>
+<line x1="1124" y1="287" x2="1190" y2="270" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1157" y="250" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="1157" dy="0">1   *</tspan></text>
+<line x1="958" y1="430" x2="978" y2="562" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1014" y="505" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="1014" dy="0">1 request has many appointments</tspan></text>
+<path d="M212 384 V458 H900 V430" fill="none" stroke="#587178" stroke-width="1.7" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+<text x="564" y="451" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="564" dy="0">0..1 user account per request (guest submissions allowed)</tspan></text>
+<path d="M340 350 V478 H820 V332" fill="none" stroke="#587178" stroke-width="1.7" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+<rect x="90" y="758" width="570" height="58" rx="10" fill="#FFF4DD" stroke="#E8CD91" stroke-width="1.5"/><text x="104" y="782" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="500" text-anchor="start"><tspan x="104" dy="0">Status enum: pending • under_review • approved • rejected • completed.</tspan></text>
+<rect x="684" y="758" width="660" height="58" rx="10" fill="#FFF4DD" stroke="#E8CD91" stroke-width="1.5"/><text x="698" y="782" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="500" text-anchor="start"><tspan x="698" dy="0">Document rows reference files stored on the backend local disk; SystemSetting has no domain relation.</tspan></text>
+
+<path d="M64 852 H1376" stroke="#D5E2DF" stroke-width="1.5"/>
+<text x="64" y="879" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="64" dy="0">MSWDO Online Service Portal  •  Vector diagram  •  Based on the current application and Docker configuration</tspan></text>
+</svg>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Package Diagram — MSWDO Online Service Portal</title><desc id="desc">Code organization inferred from the checked-in frontend, Laravel routes, controllers, models, and database layers.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#587178"/></marker></defs>
+<rect width="1440" height="900" fill="#F4F8F7"/>
+<rect x="0" y="0" width="1440" height="9" fill="#087E78"/>
+<text x="64" y="43" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="750" text-anchor="start"><tspan x="64" dy="0">MSWDO ONLINE SERVICE PORTAL  /  STRUCTURAL BLUEPRINT</tspan></text>
+<text x="64" y="91" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="750" text-anchor="start"><tspan x="64" dy="0">Package Diagram</tspan></text>
+<text x="64" y="121" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="450" text-anchor="start"><tspan x="64" dy="0">Code organization inferred from the checked-in frontend, Laravel routes, controllers, models, and database layers.</tspan></text>
+<rect x="1288" y="45" width="88" height="34" rx="17" fill="#E6F4F1"/>
+<text x="1332" y="67" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle"><tspan x="1332" dy="0">06 / 17</tspan></text>
+
+<rect x="100" y="222" width="360" height="170" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M101 264 H459" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="100" y="222" width="360" height="42" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M100 252 H460 V264 H100 Z" fill="#477B9E"/>
+    <text x="116" y="249" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="116" dy="0">«package» frontend.pages.public</tspan></text>
+    <text x="116" y="289" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="116" dy="0">PublicHome</tspan><tspan x="116" dy="17.55">ServiceApplication</tspan><tspan x="116" dy="17.55">PublicTracking</tspan><tspan x="116" dy="17.55">PublicDocumentUpload</tspan><tspan x="116" dy="17.55">ClientAuth</tspan></text>
+<rect x="100" y="468" width="360" height="170" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M101 510 H459" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="100" y="468" width="360" height="42" rx="14" fill="#087E78" stroke="#087E78" stroke-width="0"/>
+    <path d="M100 498 H460 V510 H100 Z" fill="#087E78"/>
+    <text x="116" y="495" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="116" dy="0">«package» frontend.pages.portal</tspan></text>
+    <text x="116" y="535" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="116" dy="0">ClientPortal</tspan><tspan x="116" dy="17.55">StaffDashboard</tspan><tspan x="116" dy="17.55">ServiceRequests</tspan><tspan x="116" dy="17.55">Appointments</tspan><tspan x="116" dy="17.55">AdminSettings</tspan></text>
+<rect x="552" y="346" width="330" height="144" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M553 388 H881" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="552" y="346" width="330" height="42" rx="14" fill="#17343B" stroke="#17343B" stroke-width="0"/>
+    <path d="M552 376 H882 V388 H552 Z" fill="#17343B"/>
+    <text x="568" y="373" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="568" dy="0">«package» frontend.api</tspan></text>
+    <text x="568" y="413" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="568" dy="0">axios.js</tspan><tspan x="568" dy="17.55">Base URL: /api</tspan><tspan x="568" dy="17.55">Bearer token interceptor</tspan></text>
+<rect x="976" y="210" width="360" height="170" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M977 252 H1335" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="976" y="210" width="360" height="42" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M976 240 H1336 V252 H976 Z" fill="#477B9E"/>
+    <text x="992" y="237" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="992" dy="0">«package» backend.routes</tspan></text>
+    <text x="992" y="277" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="992" dy="0">routes/api.php</tspan><tspan x="992" dy="17.55">Public routes</tspan><tspan x="992" dy="17.55">Client / staff / admin groups</tspan></text>
+<rect x="976" y="438" width="360" height="170" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M977 480 H1335" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="976" y="438" width="360" height="42" rx="14" fill="#4F9B73" stroke="#4F9B73" stroke-width="0"/>
+    <path d="M976 468 H1336 V480 H976 Z" fill="#4F9B73"/>
+    <text x="992" y="465" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="992" dy="0">«package» backend.controllers</tspan></text>
+    <text x="992" y="505" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="992" dy="0">ServiceRequestController</tspan><tspan x="992" dy="17.55">TrackingController</tspan><tspan x="992" dy="17.55">RequestDocumentController</tspan><tspan x="992" dy="17.55">Admin controllers</tspan></text>
+<rect x="552" y="588" width="330" height="144" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M553 630 H881" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="552" y="588" width="330" height="42" rx="14" fill="#C58B2B" stroke="#C58B2B" stroke-width="0"/>
+    <path d="M552 618 H882 V630 H552 Z" fill="#C58B2B"/>
+    <text x="568" y="615" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="568" dy="0">«package» backend.models + data</tspan></text>
+    <text x="568" y="655" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="568" dy="0">Eloquent models</tspan><tspan x="568" dy="17.55">Migrations → MySQL</tspan><tspan x="568" dy="17.55">storage/app private files</tspan></text>
+<path d="M460 307 H552 V390" fill="none" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M460 550 H552 V462" fill="none" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M882 418 H976" fill="none" stroke="#087E78" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1156 380 V438" fill="none" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M976 522 H882 V650" fill="none" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M716 490 V588" fill="none" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="511" y="296" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="511" dy="0">uses</tspan></text>
+<text x="922" y="402" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="922" dy="0">HTTP API</tspan></text>
+<text x="1158" y="411" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="1158" dy="0">dispatches</tspan></text>
+<text x="917" y="513" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="917" dy="0">queries / updates</tspan></text>
+
+<path d="M64 852 H1376" stroke="#D5E2DF" stroke-width="1.5"/>
+<text x="64" y="879" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="64" dy="0">MSWDO Online Service Portal  •  Vector diagram  •  Based on the current application and Docker configuration</tspan></text>
+</svg>

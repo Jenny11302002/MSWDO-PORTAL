@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Activity Diagram — MSWDO Online Service Portal</title><desc id="desc">Applicant service-request scenario: validate the form, create the pending record, return a reference, then optionally upload supporting files.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#587178"/></marker></defs>
+<rect width="1440" height="900" fill="#F4F8F7"/>
+<rect x="0" y="0" width="1440" height="9" fill="#087E78"/>
+<text x="64" y="43" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="750" text-anchor="start"><tspan x="64" dy="0">MSWDO ONLINE SERVICE PORTAL  /  BEHAVIORAL BLUEPRINT</tspan></text>
+<text x="64" y="91" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="750" text-anchor="start"><tspan x="64" dy="0">Activity Diagram</tspan></text>
+<text x="64" y="121" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="450" text-anchor="start"><tspan x="64" dy="0">Applicant service-request scenario: validate the form, create the pending record, return a reference, then optionally upload supporting files.</tspan></text>
+<rect x="1288" y="45" width="88" height="34" rx="17" fill="#E6F4F1"/>
+<text x="1332" y="67" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle"><tspan x="1332" dy="0">11 / 17</tspan></text>
+
+<rect x="102" y="178" width="126.2" height="28" rx="14" fill="#E6F4F1" stroke="#E6F4F1" stroke-width="0"/><text x="165.1" y="197" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle"><tspan x="165.1" dy="0">APPLICANT LANE</tspan></text>
+<rect x="504" y="178" width="148.1" height="28" rx="14" fill="#EAF2F8" stroke="#EAF2F8" stroke-width="0"/><text x="578.05" y="197" fill="#477B9E" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle"><tspan x="578.05" dy="0">PORTAL / API LANE</tspan></text>
+<rect x="1020" y="178" width="184.6" height="28" rx="14" fill="#FFF4DD" stroke="#FFF4DD" stroke-width="0"/><text x="1112.3" y="197" fill="#C58B2B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle"><tspan x="1112.3" dy="0">OPTIONAL DOCUMENT LANE</tspan></text>
+<path d="M408 196 V768" fill="none" stroke="#D5E2DF" stroke-width="1.5"/>
+<path d="M938 196 V768" fill="none" stroke="#D5E2DF" stroke-width="1.5"/>
+<circle cx="250" cy="250" r="15" fill="#17343B"/>
+<rect x="140" y="294" width="220" height="80" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M141 326 H359" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="140" y="294" width="220" height="32" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M140 314 H360 V326 H140 Z" fill="#477B9E"/>
+    <text x="156" y="321" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="start"><tspan x="156" dy="0">Choose service</tspan></text>
+    <text x="156" y="351" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="156" dy="0">Enter applicant details</tspan></text>
+<rect x="140" y="420" width="220" height="80" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M141 452 H359" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="140" y="420" width="220" height="32" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M140 440 H360 V452 H140 Z" fill="#477B9E"/>
+    <text x="156" y="447" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="start"><tspan x="156" dy="0">Submit application</tspan></text>
+    <text x="156" y="477" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="156" dy="0">POST /service-requests</tspan></text>
+<line x1="250" y1="265" x2="250" y2="294" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="250" y1="374" x2="250" y2="420" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M250 540 L284 574 L250 608 L216 574 Z" fill="#FFF4DD" stroke="#C58B2B" stroke-width="2"/>
+<text x="250" y="571" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle"><tspan x="250" dy="0">Valid?</tspan></text>
+<line x1="250" y1="500" x2="250" y2="540" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="510" y="294" width="310" height="90" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M511 328 H819" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="510" y="294" width="310" height="34" rx="14" fill="#087E78" stroke="#087E78" stroke-width="0"/>
+    <path d="M510 316 H820 V328 H510 Z" fill="#087E78"/>
+    <text x="526" y="321" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" text-anchor="start"><tspan x="526" dy="0">Validate required fields</tspan></text>
+    <text x="526" y="353" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="526" dy="0">service exists • name • contact</tspan><tspan x="526" dy="16.200000000000003">optional email, address, description</tspan></text>
+<rect x="510" y="448" width="310" height="104" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M511 490 H819" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="510" y="448" width="310" height="42" rx="14" fill="#4F9B73" stroke="#4F9B73" stroke-width="0"/>
+    <path d="M510 478 H820 V490 H510 Z" fill="#4F9B73"/>
+    <text x="526" y="475" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="526" dy="0">Create service request</tspan></text>
+    <text x="526" y="515" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="526" dy="0">Generate MSWDO reference</tspan><tspan x="526" dy="17.55">Set status = pending</tspan><tspan x="526" dy="17.55">Set submitted_at + optional user_id</tspan></text>
+<rect x="510" y="628" width="310" height="76" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M511 660 H819" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="510" y="628" width="310" height="32" rx="14" fill="#17343B" stroke="#17343B" stroke-width="0"/>
+    <path d="M510 648 H820 V660 H510 Z" fill="#17343B"/>
+    <text x="526" y="655" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="start"><tspan x="526" dy="0">Return confirmation</tspan></text>
+    <text x="526" y="685" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="526" dy="0">201 response + reference number</tspan></text>
+<path d="M360 458 H510" fill="none" stroke="#477B9E" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M665 384 V448" fill="none" stroke="#087E78" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M665 552 V628" fill="none" stroke="#4F9B73" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M510 500 H438 V574 H284" fill="none" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="450" y="489" fill="#B95050" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="450" dy="0">API validation fails</tspan></text>
+<rect x="1002" y="298" width="294" height="90" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M1003 332 H1295" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="1002" y="298" width="294" height="34" rx="14" fill="#C58B2B" stroke="#C58B2B" stroke-width="0"/>
+    <path d="M1002 320 H1296 V332 H1002 Z" fill="#C58B2B"/>
+    <text x="1018" y="325" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" text-anchor="start"><tspan x="1018" dy="0">Choose supporting files</tspan></text>
+    <text x="1018" y="357" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="1018" dy="0">PDF / JPG / JPEG / PNG</tspan><tspan x="1018" dy="16.200000000000003">up to 5 MB per file</tspan></text>
+<rect x="1002" y="454" width="294" height="90" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M1003 488 H1295" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="1002" y="454" width="294" height="34" rx="14" fill="#C58B2B" stroke="#C58B2B" stroke-width="0"/>
+    <path d="M1002 476 H1296 V488 H1002 Z" fill="#C58B2B"/>
+    <text x="1018" y="481" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" text-anchor="start"><tspan x="1018" dy="0">Upload by reference</tspan></text>
+    <text x="1018" y="513" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="1018" dy="0">1–10 files • POST public upload</tspan></text>
+<rect x="1002" y="612" width="294" height="90" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M1003 646 H1295" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="1002" y="612" width="294" height="34" rx="14" fill="#17343B" stroke="#17343B" stroke-width="0"/>
+    <path d="M1002 634 H1296 V646 H1002 Z" fill="#17343B"/>
+    <text x="1018" y="639" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" text-anchor="start"><tspan x="1018" dy="0">Save file + metadata</tspan></text>
+    <text x="1018" y="671" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="1018" dy="0">local disk + request_documents</tspan></text>
+<path d="M820 666 H908 V343 H1002" fill="none" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1149 388 V454" fill="none" stroke="#C58B2B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1149 544 V612" fill="none" stroke="#C58B2B" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="935" y="326" fill="#C58B2B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="935" dy="0">optional</tspan></text>
+<line x1="250" y1="608" x2="250" y2="656" stroke="#4F9B73" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="278" y="628" fill="#4F9B73" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="start"><tspan x="278" dy="0">Yes</tspan></text>
+<rect x="140" y="656" width="220" height="78" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M141 690 H359" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="140" y="656" width="220" height="34" rx="14" fill="#4F9B73" stroke="#4F9B73" stroke-width="0"/>
+    <path d="M140 678 H360 V690 H140 Z" fill="#4F9B73"/>
+    <text x="156" y="683" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="start"><tspan x="156" dy="0">Receive reference</tspan></text>
+    <text x="156" y="715" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"></text>
+<line x1="250" y1="734" x2="250" y2="772" stroke="#587178" stroke-width="1.5"/>
+<text x="307" y="589" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="start"><tspan x="307" dy="0">No → confirmation</tspan></text>
+
+<path d="M64 852 H1376" stroke="#D5E2DF" stroke-width="1.5"/>
+<text x="64" y="879" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="64" dy="0">MSWDO Online Service Portal  •  Vector diagram  •  Based on the current application and Docker configuration</tspan></text>
+</svg>

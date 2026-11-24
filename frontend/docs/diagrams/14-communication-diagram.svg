@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Communication Diagram — MSWDO Online Service Portal</title><desc id="desc">Object links and numbered messages for an applicant submitting a request and then looking it up by reference.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#587178"/></marker></defs>
+<rect width="1440" height="900" fill="#F4F8F7"/>
+<rect x="0" y="0" width="1440" height="9" fill="#087E78"/>
+<text x="64" y="43" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="750" text-anchor="start"><tspan x="64" dy="0">MSWDO ONLINE SERVICE PORTAL  /  BEHAVIORAL BLUEPRINT</tspan></text>
+<text x="64" y="91" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="750" text-anchor="start"><tspan x="64" dy="0">Communication Diagram</tspan></text>
+<text x="64" y="121" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="450" text-anchor="start"><tspan x="64" dy="0">Object links and numbered messages for an applicant submitting a request and then looking it up by reference.</tspan></text>
+<rect x="1288" y="45" width="88" height="34" rx="17" fill="#E6F4F1"/>
+<text x="1332" y="67" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle"><tspan x="1332" dy="0">14 / 17</tspan></text>
+
+<rect x="104" y="328" width="210" height="126" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M105 370 H313" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="104" y="328" width="210" height="42" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M104 358 H314 V370 H104 Z" fill="#477B9E"/>
+    <text x="120" y="355" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="120" dy="0">applicant</tspan></text>
+    <text x="120" y="395" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="120" dy="0">external actor</tspan></text>
+<rect x="424" y="248" width="226" height="126" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M425 290 H649" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="424" y="248" width="226" height="42" rx="14" fill="#087E78" stroke="#087E78" stroke-width="0"/>
+    <path d="M424 278 H650 V290 H424 Z" fill="#087E78"/>
+    <text x="440" y="275" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="440" dy="0">publicSPA</tspan></text>
+    <text x="440" y="315" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="440" dy="0">React application</tspan></text>
+<rect x="804" y="248" width="250" height="126" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M805 290 H1053" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="804" y="248" width="250" height="42" rx="14" fill="#4F9B73" stroke="#4F9B73" stroke-width="0"/>
+    <path d="M804 278 H1054 V290 H804 Z" fill="#4F9B73"/>
+    <text x="820" y="275" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="820" dy="0">requestAPI</tspan></text>
+    <text x="820" y="315" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="820" dy="0">Laravel API routes</tspan></text>
+<rect x="804" y="542" width="250" height="126" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M805 584 H1053" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="804" y="542" width="250" height="42" rx="14" fill="#C58B2B" stroke="#C58B2B" stroke-width="0"/>
+    <path d="M804 572 H1054 V584 H804 Z" fill="#C58B2B"/>
+    <text x="820" y="569" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="820" dy="0">trackingAPI</tspan></text>
+    <text x="820" y="609" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="820" dy="0">TrackingController</tspan></text>
+<rect x="1160" y="328" width="220" height="126" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M1161 370 H1379" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="1160" y="328" width="220" height="42" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M1160 358 H1380 V370 H1160 Z" fill="#477B9E"/>
+    <text x="1176" y="355" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="1176" dy="0">portalDB</tspan></text>
+    <text x="1176" y="395" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="1176" dy="0">MySQL records</tspan></text>
+<path d="M314 356 L424 318" fill="none" stroke="#587178" stroke-width="2"/>
+<path d="M650 310 H804" fill="none" stroke="#587178" stroke-width="2"/>
+<path d="M1054 310 L1160 356" fill="none" stroke="#587178" stroke-width="2"/>
+<path d="M314 414 L424 584" fill="none" stroke="#587178" stroke-width="2"/>
+<path d="M650 584 H804" fill="none" stroke="#587178" stroke-width="2"/>
+<path d="M1054 584 L1160 426" fill="none" stroke="#587178" stroke-width="2"/>
+<rect x="250" y="260" width="155.4" height="28" rx="14" fill="#EAF2F8" stroke="#EAF2F8" stroke-width="0"/><text x="327.7" y="279" fill="#477B9E" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle"><tspan x="327.7" dy="0">1  choose + submit</tspan></text>
+<rect x="655" y="218" width="206.5" height="28" rx="14" fill="#E6F4F1" stroke="#E6F4F1" stroke-width="0"/><text x="758.25" y="237" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle"><tspan x="758.25" dy="0">2  POST /service-requests</tspan></text>
+<rect x="1010" y="260" width="191.9" height="28" rx="14" fill="#E6F4F1" stroke="#E6F4F1" stroke-width="0"/><text x="1105.95" y="279" fill="#4F9B73" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle"><tspan x="1105.95" dy="0">2.1  create pending row</tspan></text>
+<rect x="250" y="476" width="155.4" height="28" rx="14" fill="#FFF4DD" stroke="#FFF4DD" stroke-width="0"/><text x="327.7" y="495" fill="#C58B2B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle"><tspan x="327.7" dy="0">3  enter reference</tspan></text>
+<rect x="655" y="606" width="184.6" height="28" rx="14" fill="#FFF4DD" stroke="#FFF4DD" stroke-width="0"/><text x="747.3" y="625" fill="#C58B2B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle"><tspan x="747.3" dy="0">4  POST /track-request</tspan></text>
+<rect x="1010" y="492" width="191.9" height="28" rx="14" fill="#EAF2F8" stroke="#EAF2F8" stroke-width="0"/><text x="1105.95" y="511" fill="#477B9E" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle"><tspan x="1105.95" dy="0">4.1  query by reference</tspan></text>
+<rect x="440" y="716" width="626" height="60" rx="10" fill="#FFF4DD" stroke="#E8CD91" stroke-width="1.5"/><text x="454" y="740" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="500" text-anchor="start"><tspan x="454" dy="0">Response messages return confirmation details or the matched status, service name, remarks, and uploaded document metadata.</tspan></text>
+
+<path d="M64 852 H1376" stroke="#D5E2DF" stroke-width="1.5"/>
+<text x="64" y="879" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="64" dy="0">MSWDO Online Service Portal  •  Vector diagram  •  Based on the current application and Docker configuration</tspan></text>
+</svg>

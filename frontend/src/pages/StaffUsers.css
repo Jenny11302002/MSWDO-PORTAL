@@ -1,0 +1,98 @@
+.staff-permissions-panel {
+    display: grid;
+    grid-template-columns: minmax(190px, 0.8fr) minmax(320px, 1.2fr);
+    gap: 20px;
+    padding: 18px;
+    margin-top: 6px;
+    border: 1px solid #dce5ee;
+    border-radius: 10px;
+    background: #f8fafc;
+}
+
+.staff-permissions-panel h3 {
+    margin: 0 0 6px;
+    color: #102b4e;
+    font-size: 15px;
+}
+
+.staff-permissions-panel p,
+.staff-admin-access-note {
+    margin: 0;
+    color: #718096;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.staff-permissions-table {
+    overflow: hidden;
+    border: 1px solid #e1e9f0;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.staff-permission-row {
+    display: grid;
+    grid-template-columns: minmax(130px, 1fr) 70px 80px;
+    align-items: center;
+    min-height: 39px;
+    padding: 0 12px;
+    border-bottom: 1px solid #edf2f6;
+    color: #334e68;
+    font-size: 12px;
+}
+
+.staff-permission-row:last-child {
+    border-bottom: 0;
+}
+
+.staff-permission-heading {
+    min-height: 34px;
+    background: #f3f7fa;
+    color: #627d98;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.staff-permission-row > :not(:first-child) {
+    justify-self: center;
+}
+
+.staff-permission-row input {
+    width: 15px;
+    height: 15px;
+    accent-color: #087e8b;
+}
+
+.staff-permission-na {
+    color: #9aa8b5;
+}
+
+.staff-admin-access-note {
+    padding: 12px 14px;
+    margin-top: 12px;
+    border-radius: 8px;
+    background: #eaf4f4;
+    color: #17606a;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+@media (max-width: 700px) {
+    .staff-permissions-panel {
+        grid-template-columns: 1fr;
+    }
+
+    .staff-permission-row {
+        grid-template-columns: minmax(100px, 1fr) 60px 70px;
+        padding: 0 8px;
+    }
+}

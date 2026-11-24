@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Deployment Diagram — MSWDO Online Service Portal</title><desc id="desc">Container and port assignments taken from docker-compose.yml; no production hosting target is declared in the repository.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#587178"/></marker></defs>
+<rect width="1440" height="900" fill="#F4F8F7"/>
+<rect x="0" y="0" width="1440" height="9" fill="#087E78"/>
+<text x="64" y="43" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="750" text-anchor="start"><tspan x="64" dy="0">MSWDO ONLINE SERVICE PORTAL  /  STRUCTURAL BLUEPRINT</tspan></text>
+<text x="64" y="91" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="750" text-anchor="start"><tspan x="64" dy="0">Deployment Diagram</tspan></text>
+<text x="64" y="121" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="450" text-anchor="start"><tspan x="64" dy="0">Container and port assignments taken from docker-compose.yml; no production hosting target is declared in the repository.</tspan></text>
+<rect x="1288" y="45" width="88" height="34" rx="17" fill="#E6F4F1"/>
+<text x="1332" y="67" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle"><tspan x="1332" dy="0">04 / 17</tspan></text>
+
+<rect x="94" y="290" width="230" height="160" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M95 332 H323" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="94" y="290" width="230" height="42" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M94 320 H324 V332 H94 Z" fill="#477B9E"/>
+    <text x="110" y="317" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="110" dy="0">Applicant device</tspan></text>
+    <text x="110" y="357" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="110" dy="0">Web browser</tspan><tspan x="110" dy="17.55">Public pages / client portal</tspan></text>
+<rect x="94" y="536" width="230" height="142" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M95 578 H323" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="94" y="536" width="230" height="42" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M94 566 H324 V578 H94 Z" fill="#477B9E"/>
+    <text x="110" y="563" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="110" dy="0">Staff device</tspan></text>
+    <text x="110" y="603" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="110" dy="0">Web browser</tspan><tspan x="110" dy="17.55">Admin and staff modules</tspan></text>
+<rect x="390" y="188" width="914" height="550" rx="20" fill="#EDF5F3" stroke="#BED4CF" stroke-width="2"/>
+<rect x="414" y="204" width="308.7" height="28" rx="14" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0"/><text x="568.35" y="223" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle"><tspan x="568.35" dy="0">DOCKER BRIDGE NETWORK  •  mswdo-network</tspan></text>
+<rect x="450" y="286" width="244" height="154" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M451 328 H693" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="450" y="286" width="244" height="42" rx="14" fill="#087E78" stroke="#087E78" stroke-width="0"/>
+    <path d="M450 316 H694 V328 H450 Z" fill="#087E78"/>
+    <text x="466" y="313" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="466" dy="0">frontend container</tspan></text>
+    <text x="466" y="353" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="466" dy="0">React + Vite dev server</tspan><tspan x="466" dy="17.55">Host :5173 → container :5173</tspan><tspan x="466" dy="17.55">API proxy → backend:8000</tspan></text>
+<rect x="786" y="286" width="244" height="154" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M787 328 H1029" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="786" y="286" width="244" height="42" rx="14" fill="#4F9B73" stroke="#4F9B73" stroke-width="0"/>
+    <path d="M786 316 H1030 V328 H786 Z" fill="#4F9B73"/>
+    <text x="802" y="313" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="802" dy="0">backend container</tspan></text>
+    <text x="802" y="353" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="802" dy="0">Laravel / PHP API</tspan><tspan x="802" dy="17.55">Host :8000 → container :8000</tspan><tspan x="802" dy="17.55">Storage bind mount</tspan></text>
+<rect x="1090" y="286" width="182" height="154" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M1091 328 H1271" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="1090" y="286" width="182" height="42" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M1090 316 H1272 V328 H1090 Z" fill="#477B9E"/>
+    <text x="1106" y="313" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="1106" dy="0">mysql container</tspan></text>
+    <text x="1106" y="353" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="1106" dy="0">MySQL 8.0</tspan><tspan x="1106" dy="17.55">Container port :3306</tspan><tspan x="1106" dy="17.55">Persistent named volume</tspan></text>
+<rect x="786" y="512" width="244" height="120" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M787 554 H1029" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="786" y="512" width="244" height="42" rx="14" fill="#C58B2B" stroke="#C58B2B" stroke-width="0"/>
+    <path d="M786 542 H1030 V554 H786 Z" fill="#C58B2B"/>
+    <text x="802" y="539" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="802" dy="0">Private uploads</tspan></text>
+    <text x="802" y="579" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="802" dy="0">./backend/storage</tspan><tspan x="802" dy="17.55">Mounted at /var/www/storage</tspan></text>
+<rect x="1090" y="512" width="182" height="120" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M1091 554 H1271" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="1090" y="512" width="182" height="42" rx="14" fill="#17343B" stroke="#17343B" stroke-width="0"/>
+    <path d="M1090 542 H1272 V554 H1090 Z" fill="#17343B"/>
+    <text x="1106" y="539" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="1106" dy="0">phpMyAdmin</tspan></text>
+    <text x="1106" y="579" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="1106" dy="0">Support tool</tspan><tspan x="1106" dy="17.55">Host :8085 → :80</tspan></text>
+<line x1="324" y1="348" x2="450" y2="348" stroke="#477B9E" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="324" y1="594" x2="450" y2="404" stroke="#477B9E" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="694" y1="363" x2="786" y2="363" stroke="#087E78" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="740" y="344" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="740" dy="0">proxy / HTTP</tspan></text>
+<line x1="1030" y1="363" x2="1090" y2="363" stroke="#477B9E" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1060" y="345" fill="#477B9E" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="1060" dy="0">SQL</tspan></text>
+<path d="M908 440 V512" fill="none" stroke="#C58B2B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1180 440 V512" fill="none" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="458" y="674" width="790" height="42" rx="10" fill="#FFF4DD" stroke="#E8CD91" stroke-width="1.5"/><text x="472" y="698" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="500" text-anchor="start"><tspan x="472" dy="0">Deployment view reflects local Docker configuration, not an asserted production topology.</tspan></text>
+
+<path d="M64 852 H1376" stroke="#D5E2DF" stroke-width="1.5"/>
+<text x="64" y="879" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="64" dy="0">MSWDO Online Service Portal  •  Vector diagram  •  Based on the current application and Docker configuration</tspan></text>
+</svg>

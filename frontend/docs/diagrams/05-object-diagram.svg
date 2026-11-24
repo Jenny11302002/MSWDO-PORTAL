@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Object Diagram — MSWDO Online Service Portal</title><desc id="desc">Illustrative runtime snapshot: one sample request connected to its service, applicant, document, appointment, and staff author.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#587178"/></marker></defs>
+<rect width="1440" height="900" fill="#F4F8F7"/>
+<rect x="0" y="0" width="1440" height="9" fill="#087E78"/>
+<text x="64" y="43" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="750" text-anchor="start"><tspan x="64" dy="0">MSWDO ONLINE SERVICE PORTAL  /  STRUCTURAL BLUEPRINT</tspan></text>
+<text x="64" y="91" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="750" text-anchor="start"><tspan x="64" dy="0">Object Diagram</tspan></text>
+<text x="64" y="121" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="450" text-anchor="start"><tspan x="64" dy="0">Illustrative runtime snapshot: one sample request connected to its service, applicant, document, appointment, and staff author.</tspan></text>
+<rect x="1288" y="45" width="88" height="34" rx="17" fill="#E6F4F1"/>
+<text x="1332" y="67" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle"><tspan x="1332" dy="0">05 / 17</tspan></text>
+
+<rect x="96" y="176" width="294.09999999999997" height="28" rx="14" fill="#FFF4DD" stroke="#FFF4DD" stroke-width="0"/><text x="243.04999999999998" y="195" fill="#C58B2B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle"><tspan x="243.04999999999998" dy="0">EXAMPLE SNAPSHOT  •  SAMPLE DATA ONLY</tspan></text>
+<rect x="106" y="282" width="250" height="148" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M107 324 H355" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="106" y="282" width="250" height="42" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M106 312 H356 V324 H106 Z" fill="#477B9E"/>
+    <text x="122" y="309" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="122" dy="0">applicant:User</tspan></text>
+    <text x="122" y="349" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="122" dy="0">name = Sample Applicant</tspan><tspan x="122" dy="17.55">role = client</tspan><tspan x="122" dy="17.55">is_active = true</tspan></text>
+<rect x="430" y="220" width="260" height="132" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M431 262 H689" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="430" y="220" width="260" height="42" rx="14" fill="#087E78" stroke="#087E78" stroke-width="0"/>
+    <path d="M430 250 H690 V262 H430 Z" fill="#087E78"/>
+    <text x="446" y="247" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="446" dy="0">service:Service</tspan></text>
+    <text x="446" y="287" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="446" dy="0">service_name = Social Assistance</tspan><tspan x="446" dy="17.55">is_active = true</tspan></text>
+<rect x="796" y="282" width="300" height="180" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M797 324 H1095" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="796" y="282" width="300" height="42" rx="14" fill="#4F9B73" stroke="#4F9B73" stroke-width="0"/>
+    <path d="M796 312 H1096 V324 H796 Z" fill="#4F9B73"/>
+    <text x="812" y="309" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="812" dy="0">request:ServiceRequest</tspan></text>
+    <text x="812" y="349" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="812" dy="0">reference_number = MSWDO-A1B2C3D4E5</tspan><tspan x="812" dy="17.55">status = under_review</tspan><tspan x="812" dy="17.55">applicant_name = Sample Applicant</tspan><tspan x="812" dy="17.55">submitted_at = 2026-11-10</tspan></text>
+<rect x="1170" y="250" width="202" height="156" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M1171 292 H1371" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="1170" y="250" width="202" height="42" rx="14" fill="#C58B2B" stroke="#C58B2B" stroke-width="0"/>
+    <path d="M1170 280 H1372 V292 H1170 Z" fill="#C58B2B"/>
+    <text x="1186" y="277" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="1186" dy="0">document:RequestDocument</tspan></text>
+    <text x="1186" y="317" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="1186" dy="0">document_name = Valid ID</tspan><tspan x="1186" dy="17.55">mime_type = image/jpeg</tspan><tspan x="1186" dy="17.55">file_size = 240000</tspan></text>
+<rect x="820" y="568" width="260" height="142" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M821 610 H1079" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="820" y="568" width="260" height="42" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M820 598 H1080 V610 H820 Z" fill="#477B9E"/>
+    <text x="836" y="595" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="836" dy="0">appointment:Appointment</tspan></text>
+    <text x="836" y="635" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="836" dy="0">status = scheduled</tspan><tspan x="836" dy="17.55">location = MSWDO Office</tspan><tspan x="836" dy="17.55">appointment_date = 2026-11-18</tspan></text>
+<rect x="430" y="574" width="260" height="126" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M431 616 H689" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="430" y="574" width="260" height="42" rx="14" fill="#17343B" stroke="#17343B" stroke-width="0"/>
+    <path d="M430 604 H690 V616 H430 Z" fill="#17343B"/>
+    <text x="446" y="601" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="446" dy="0">reviewer:User</tspan></text>
+    <text x="446" y="641" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="446" dy="0">name = Sample Staff</tspan><tspan x="446" dy="17.55">role = staff</tspan></text>
+<line x1="356" y1="350" x2="796" y2="360" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="570" y="336" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="570" dy="0">user_id</tspan></text>
+<line x1="690" y1="286" x2="796" y2="320" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="744" y="284" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="744" dy="0">service_id</tspan></text>
+<line x1="1096" y1="354" x2="1170" y2="330" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1133" y="322" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="1133" dy="0">request_id</tspan></text>
+<line x1="948" y1="462" x2="948" y2="568" stroke="#587178" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1016" y="526" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="1016" dy="0">service_request_id</tspan></text>
+<path d="M690 620 H750 V422 H796" fill="none" stroke="#587178" stroke-width="1.8" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+<text x="728" y="602" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="728" dy="0">staff updates status</tspan></text>
+<rect x="112" y="690" width="264" height="70" rx="10" fill="#FFF4DD" stroke="#E8CD91" stroke-width="1.5"/><text x="126" y="714" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="500" text-anchor="start"><tspan x="126" dy="0">Illustrative instance values only;</tspan><tspan x="126" dy="16.200000000000003">not data read from a live database.</tspan></text>
+
+<path d="M64 852 H1376" stroke="#D5E2DF" stroke-width="1.5"/>
+<text x="64" y="879" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="64" dy="0">MSWDO Online Service Portal  •  Vector diagram  •  Based on the current application and Docker configuration</tspan></text>
+</svg>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">Requirement Diagram — MSWDO Online Service Portal</title><desc id="desc">Traceable requirements for the current portal, mapped to implementation areas; capabilities not evident in code are not asserted.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#587178"/></marker></defs>
+<rect width="1440" height="900" fill="#F4F8F7"/>
+<rect x="0" y="0" width="1440" height="9" fill="#087E78"/>
+<text x="64" y="43" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="750" text-anchor="start"><tspan x="64" dy="0">MSWDO ONLINE SERVICE PORTAL  /  BEHAVIORAL BLUEPRINT</tspan></text>
+<text x="64" y="91" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="750" text-anchor="start"><tspan x="64" dy="0">Requirement Diagram</tspan></text>
+<text x="64" y="121" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="450" text-anchor="start"><tspan x="64" dy="0">Traceable requirements for the current portal, mapped to implementation areas; capabilities not evident in code are not asserted.</tspan></text>
+<rect x="1288" y="45" width="88" height="34" rx="17" fill="#E6F4F1"/>
+<text x="1332" y="67" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle"><tspan x="1332" dy="0">17 / 17</tspan></text>
+
+<rect x="86" y="210" width="336" height="160" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M87 252 H421" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="86" y="210" width="336" height="42" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M86 240 H422 V252 H86 Z" fill="#477B9E"/>
+    <text x="102" y="237" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="102" dy="0">«requirement» REQ-01</tspan></text>
+    <text x="102" y="277" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="102" dy="0">Public applicant can submit</tspan><tspan x="102" dy="17.55">a service request and receive</tspan><tspan x="102" dy="17.55">a unique reference number.</tspan></text>
+<rect x="86" y="440" width="336" height="160" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M87 482 H421" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="86" y="440" width="336" height="42" rx="14" fill="#087E78" stroke="#087E78" stroke-width="0"/>
+    <path d="M86 470 H422 V482 H86 Z" fill="#087E78"/>
+    <text x="102" y="467" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="102" dy="0">«requirement» REQ-02</tspan></text>
+    <text x="102" y="507" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="102" dy="0">Applicant can retrieve request</tspan><tspan x="102" dy="17.55">status by reference number.</tspan></text>
+<rect x="538" y="210" width="336" height="160" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M539 252 H873" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="538" y="210" width="336" height="42" rx="14" fill="#4F9B73" stroke="#4F9B73" stroke-width="0"/>
+    <path d="M538 240 H874 V252 H538 Z" fill="#4F9B73"/>
+    <text x="554" y="237" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="554" dy="0">«requirement» REQ-03</tspan></text>
+    <text x="554" y="277" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="554" dy="0">Request fields are validated;</tspan><tspan x="554" dy="17.55">valid data is persisted with</tspan><tspan x="554" dy="17.55">initial status pending.</tspan></text>
+<rect x="538" y="440" width="336" height="160" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M539 482 H873" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="538" y="440" width="336" height="42" rx="14" fill="#C58B2B" stroke="#C58B2B" stroke-width="0"/>
+    <path d="M538 470 H874 V482 H538 Z" fill="#C58B2B"/>
+    <text x="554" y="467" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="554" dy="0">«requirement» REQ-04</tspan></text>
+    <text x="554" y="507" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="554" dy="0">Supporting files are restricted</tspan><tspan x="554" dy="17.55">to PDF/JPG/PNG, max 5 MB</tspan><tspan x="554" dy="17.55">per file; metadata is recorded.</tspan></text>
+<rect x="990" y="210" width="360" height="160" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M991 252 H1349" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="990" y="210" width="360" height="42" rx="14" fill="#17343B" stroke="#17343B" stroke-width="0"/>
+    <path d="M990 240 H1350 V252 H990 Z" fill="#17343B"/>
+    <text x="1006" y="237" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="1006" dy="0">«requirement» REQ-05</tspan></text>
+    <text x="1006" y="277" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="1006" dy="0">Staff access is authenticated</tspan><tspan x="1006" dy="17.55">and protected by role and</tspan><tspan x="1006" dy="17.55">module-permission middleware.</tspan></text>
+<rect x="990" y="440" width="360" height="160" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M991 482 H1349" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="990" y="440" width="360" height="42" rx="14" fill="#477B9E" stroke="#477B9E" stroke-width="0"/>
+    <path d="M990 470 H1350 V482 H990 Z" fill="#477B9E"/>
+    <text x="1006" y="467" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="1006" dy="0">«requirement» REQ-06</tspan></text>
+    <text x="1006" y="507" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="1006" dy="0">Staff can update request status</tspan><tspan x="1006" dy="17.55">using the supported status set.</tspan></text>
+<rect x="538" y="668" width="336" height="112" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M539 710 H873" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="538" y="668" width="336" height="42" rx="14" fill="#087E78" stroke="#087E78" stroke-width="0"/>
+    <path d="M538 698 H874 V710 H538 Z" fill="#087E78"/>
+    <text x="554" y="695" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="554" dy="0">«design» API + controllers</tspan></text>
+    <text x="554" y="735" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="554" dy="0">routes/api.php • controllers</tspan></text>
+<rect x="990" y="668" width="360" height="112" rx="14" fill="#FFFFFF" stroke="#D5E2DF" stroke-width="2"/>
+    <path d="M991 710 H1349" stroke="#D5E2DF" stroke-width="1.5"/>
+    <rect x="990" y="668" width="360" height="42" rx="14" fill="#4F9B73" stroke="#4F9B73" stroke-width="0"/>
+    <path d="M990 698 H1350 V710 H990 Z" fill="#4F9B73"/>
+    <text x="1006" y="695" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" text-anchor="start"><tspan x="1006" dy="0">«design» React portal + Sanctum</tspan></text>
+    <text x="1006" y="735" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="450" text-anchor="start"><tspan x="1006" dy="0">public UI • staff UI • middleware</tspan></text>
+<path d="M422 290 H500 V240 H538" fill="none" stroke="#587178" stroke-width="1.7" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+<path d="M422 520 H500 V322 H538" fill="none" stroke="#587178" stroke-width="1.7" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+<path d="M706 370 V668" fill="none" stroke="#087E78" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M706 600 V668" fill="none" stroke="#087E78" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1170 370 V668" fill="none" stroke="#4F9B73" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1170 600 V668" fill="none" stroke="#4F9B73" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="480" y="274" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="480" dy="0">«deriveReqt»</tspan></text>
+<text x="480" y="503" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="480" dy="0">«deriveReqt»</tspan></text>
+<text x="738" y="636" fill="#087E78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="738" dy="0">«satisfy»</tspan></text>
+<text x="1201" y="636" fill="#4F9B73" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle"><tspan x="1201" dy="0">«satisfy»</tspan></text>
+<rect x="86" y="668" width="336" height="112" rx="10" fill="#FFF4DD" stroke="#E8CD91" stroke-width="1.5"/><text x="100" y="692" fill="#17343B" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="500" text-anchor="start"><tspan x="100" dy="0">Additional scope: client portal,</tspan><tspan x="100" dy="16.200000000000003">appointments, announcements,</tspan><tspan x="100" dy="16.200000000000003">admin settings and reports.</tspan></text>
+
+<path d="M64 852 H1376" stroke="#D5E2DF" stroke-width="1.5"/>
+<text x="64" y="879" fill="#587178" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="450" text-anchor="start"><tspan x="64" dy="0">MSWDO Online Service Portal  •  Vector diagram  •  Based on the current application and Docker configuration</tspan></text>
+</svg>
